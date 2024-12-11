@@ -12,10 +12,13 @@ function App() {
     }, []);
 
     return (
+        <>
         <div>
-            <h1>React-Express App</h1>
+            <h1 class="title is-1">Lighthouse</h1>
+            <h2 class="subtitle">Journal Together</h2>
             <p>{message}</p>
         </div>
+        </>
     );
 }
 
